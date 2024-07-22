@@ -1,0 +1,30 @@
+.dish-card {
+  position: relative;
+  width: 300px;
+  padding: 20px;
+  padding-bottom: 30px;
+
+  border: 2px solid $primary-color;
+  border-radius: 10px;
+
+  &__name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+    text-decoration: underline;
+
+    font-style: italic;
+  }
+
+  &__desc {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  &__price {
+    right: 20px;
+    bottom: 10px;
+    position: absolute;
+  }
+}
